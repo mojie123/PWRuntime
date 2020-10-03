@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AF5DD963DA52943FB398F4DDF2AC27E /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 794E86C7B2A5B6CC8DB737E79C1AF89F /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D52DC14C5B206D6A955E40559F4563E /* Pods-PWRuntime_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D02B42814B73D96E5AB8B8F91CFB6E9 /* Pods-PWRuntime_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EE72BD82D2129A3B5509C4189796A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5FE77E72BE90E791B4462DE4944F8020 /* Pods-PWRuntime_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF24362D44DD1A85662829E97730F45 /* Pods-PWRuntime_Tests-dummy.m */; };
 		704AB5872FBC5FFEE9FFE419BD4B82C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		81E7D7203BC887E240068F9D1CBAF8A3 /* PWRuntime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E65A0E5980709070889F723D46B22CE2 /* PWRuntime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E7D7203BC887E240068F9D1CBAF8A3 /* PWRuntime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9233C8051DB241E086BEBF3F98723B5 /* PWRuntime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CA56A2DEBEB904BA3311A941A42A148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8EFB1D2ECB812E7311BAC6FA23765526 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6854F1AC002932D5A7DF5303C34279 /* Person.m */; };
 		AD8B96D5F4CDD69EC4F679ADE4BFA435 /* Pods-PWRuntime_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03923BA31D63756FF2FDEB6913EFA1F2 /* Pods-PWRuntime_Example-dummy.m */; };
-		C93D809EB853B3E76FEDB9AAB4534602 /* PWRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3C604951355D7EB2D5B23FD584473 /* PWRuntime-dummy.m */; };
+		C93D809EB853B3E76FEDB9AAB4534602 /* PWRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17943BCA55F43830695A3559F2F59EF0 /* PWRuntime-dummy.m */; };
 		EBA6F43F4894D1F809A1104EB2F100E2 /* Pods-PWRuntime_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DFC5C44F9CCBC6C2782BD10ECCA8F7 /* Pods-PWRuntime_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF85E693616A23A98B8E3FA96D604CAB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C65C9A3E56126695B2D04F89E2CD7 /* Person.m */; };
+		EBBD790AC602919695952B35F4EE7FC8 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9657A4CDCEBB0EBB97B23C40248C56 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,36 +41,36 @@
 		035308C3EBEBB0F9AFB8A624EF5879B3 /* Pods-PWRuntime_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PWRuntime_Tests.modulemap"; sourceTree = "<group>"; };
 		03923BA31D63756FF2FDEB6913EFA1F2 /* Pods-PWRuntime_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PWRuntime_Example-dummy.m"; sourceTree = "<group>"; };
 		10DAC4030835EBEF3755EEA4DBDED149 /* Pods-PWRuntime_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PWRuntime_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		187A83A797171280AC284BF405237C86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1A582C77116672DCE860ACA777DAA425 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1FA3C604951355D7EB2D5B23FD584473 /* PWRuntime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PWRuntime-dummy.m"; sourceTree = "<group>"; };
+		17943BCA55F43830695A3559F2F59EF0 /* PWRuntime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PWRuntime-dummy.m"; sourceTree = "<group>"; };
 		254FEBD0447189B0822D34D78D6B4708 /* Pods-PWRuntime_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWRuntime_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		25999586C6BA66C72C95E365E7269CF1 /* PWRuntime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PWRuntime-Info.plist"; sourceTree = "<group>"; };
 		2ADB5399BA2F5C866878A4E9FE850F73 /* Pods-PWRuntime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWRuntime_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2F94C08D2D953440CBFF347DBCE9E977 /* PWRuntime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33B8BE73A3687E7CA849846779B6963E /* Pods-PWRuntime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWRuntime_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3829B3F5C656B96815A38CE739C19473 /* PWRuntime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.release.xcconfig; sourceTree = "<group>"; };
 		39ABAFF2EF33EFCCAC005A6C059401B2 /* Pods-PWRuntime_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PWRuntime_Example.modulemap"; sourceTree = "<group>"; };
-		3CA9574C50ED13E60BDB9BFFB5BDD502 /* PWRuntime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-prefix.pch"; sourceTree = "<group>"; };
+		4278B2BD46D5C9D7E9E370B95E3E98E9 /* PWRuntime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PWRuntime.modulemap; sourceTree = "<group>"; };
+		45D1D361C517F2DCB571B8315AAC279F /* PWRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PWRuntime.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D02B42814B73D96E5AB8B8F91CFB6E9 /* Pods-PWRuntime_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PWRuntime_Example-umbrella.h"; sourceTree = "<group>"; };
-		524A1B88089736E4FB2BD52086073077 /* PWRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PWRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A1B88089736E4FB2BD52086073077 /* PWRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PWRuntime.framework; path = PWRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3E40134083D9D7BD3F5B131E58026B /* PWRuntime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-prefix.pch"; sourceTree = "<group>"; };
 		6705D3D1319163417524C522B60D10EF /* Pods-PWRuntime_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWRuntime_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6BAF57470E7CCF4E426390EDB6182755 /* Pods_PWRuntime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWRuntime_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		750C65C9A3E56126695B2D04F89E2CD7 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = PWRuntime/Classes/Person.m; sourceTree = "<group>"; };
+		6BAF57470E7CCF4E426390EDB6182755 /* Pods_PWRuntime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PWRuntime_Tests.framework; path = "Pods-PWRuntime_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DFC5C44F9CCBC6C2782BD10ECCA8F7 /* Pods-PWRuntime_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PWRuntime_Tests-umbrella.h"; sourceTree = "<group>"; };
-		794E86C7B2A5B6CC8DB737E79C1AF89F /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = PWRuntime/Classes/Person.h; sourceTree = "<group>"; };
 		828A7E20A1031581DFC378B20512769B /* Pods-PWRuntime_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWRuntime_Tests-Info.plist"; sourceTree = "<group>"; };
 		87F72C70965ED02C9D35EEE8DC44C5BF /* Pods-PWRuntime_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PWRuntime_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		929E9BEDBC69E5F666A64AC200E17836 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		96E465673D32F0DB2854AC7A1D898655 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8B21276DC4AB11582140A3378A1C64E /* PWRuntime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PWRuntime-Info.plist"; sourceTree = "<group>"; };
 		A937E9951DF01906288887DBFB7131AE /* Pods-PWRuntime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWRuntime_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B3D072E8ECFCFBCCD4B2D04581DA1E54 /* Pods_PWRuntime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWRuntime_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8F40C8B5A83401B1AA94723AD41A60C /* PWRuntime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.release.xcconfig; sourceTree = "<group>"; };
-		C96942B0C676802DCC37394B0039772C /* PWRuntime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PWRuntime.modulemap; sourceTree = "<group>"; };
+		B3D072E8ECFCFBCCD4B2D04581DA1E54 /* Pods_PWRuntime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PWRuntime_Example.framework; path = "Pods-PWRuntime_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACA8FAA4DE839E505747F92B8E169B8 /* Pods-PWRuntime_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PWRuntime_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D8F7972FCEB2A71BA37A9652B98440C6 /* PWRuntime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.debug.xcconfig; sourceTree = "<group>"; };
 		DAF24362D44DD1A85662829E97730F45 /* Pods-PWRuntime_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PWRuntime_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0AF6D769074BAED32E9A14E37DAE650 /* Pods-PWRuntime_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWRuntime_Example-Info.plist"; sourceTree = "<group>"; };
-		E65A0E5980709070889F723D46B22CE2 /* PWRuntime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-umbrella.h"; sourceTree = "<group>"; };
-		EB86BB87A00CE21DB50D9638BB7AAA22 /* PWRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PWRuntime.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E9233C8051DB241E086BEBF3F98723B5 /* PWRuntime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-umbrella.h"; sourceTree = "<group>"; };
+		EB9657A4CDCEBB0EBB97B23C40248C56 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = PWRuntime/Classes/Person/Person.h; sourceTree = "<group>"; };
+		EE6854F1AC002932D5A7DF5303C34279 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = PWRuntime/Classes/Person/Person.m; sourceTree = "<group>"; };
 		F75927029DD96D42FD984796259C5D68 /* Pods-PWRuntime_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWRuntime_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,16 +111,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		457B0732EAD38DD8268BE4F0820DAC57 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				187A83A797171280AC284BF405237C86 /* LICENSE */,
-				EB86BB87A00CE21DB50D9638BB7AAA22 /* PWRuntime.podspec */,
-				1A582C77116672DCE860ACA777DAA425 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		48DC1056BFF48F74CD45064DACF25F91 /* Pods-PWRuntime_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,13 +127,38 @@
 			path = "Target Support Files/Pods-PWRuntime_Tests";
 			sourceTree = "<group>";
 		};
-		9B2F3085929AD00242C16F6173B9A1C9 /* PWRuntime */ = {
+		493283FA089C9182A2F3E2C73FCED48D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				794E86C7B2A5B6CC8DB737E79C1AF89F /* Person.h */,
-				750C65C9A3E56126695B2D04F89E2CD7 /* Person.m */,
-				457B0732EAD38DD8268BE4F0820DAC57 /* Pod */,
-				CB85035F93570B6BE2D10364694BF712 /* Support Files */,
+				96E465673D32F0DB2854AC7A1D898655 /* LICENSE */,
+				45D1D361C517F2DCB571B8315AAC279F /* PWRuntime.podspec */,
+				929E9BEDBC69E5F666A64AC200E17836 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5EE99E89D3C1A38E40E86E7E07864A81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4278B2BD46D5C9D7E9E370B95E3E98E9 /* PWRuntime.modulemap */,
+				17943BCA55F43830695A3559F2F59EF0 /* PWRuntime-dummy.m */,
+				A8B21276DC4AB11582140A3378A1C64E /* PWRuntime-Info.plist */,
+				5C3E40134083D9D7BD3F5B131E58026B /* PWRuntime-prefix.pch */,
+				E9233C8051DB241E086BEBF3F98723B5 /* PWRuntime-umbrella.h */,
+				D8F7972FCEB2A71BA37A9652B98440C6 /* PWRuntime.debug.xcconfig */,
+				3829B3F5C656B96815A38CE739C19473 /* PWRuntime.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PWRuntime";
+			sourceTree = "<group>";
+		};
+		A2766CA6B54B788593F802D9FEC35860 /* PWRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				EB9657A4CDCEBB0EBB97B23C40248C56 /* Person.h */,
+				EE6854F1AC002932D5A7DF5303C34279 /* Person.m */,
+				493283FA089C9182A2F3E2C73FCED48D /* Pod */,
+				5EE99E89D3C1A38E40E86E7E07864A81 /* Support Files */,
 			);
 			name = PWRuntime;
 			path = ../..;
@@ -165,21 +180,6 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		CB85035F93570B6BE2D10364694BF712 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C96942B0C676802DCC37394B0039772C /* PWRuntime.modulemap */,
-				1FA3C604951355D7EB2D5B23FD584473 /* PWRuntime-dummy.m */,
-				25999586C6BA66C72C95E365E7269CF1 /* PWRuntime-Info.plist */,
-				3CA9574C50ED13E60BDB9BFFB5BDD502 /* PWRuntime-prefix.pch */,
-				E65A0E5980709070889F723D46B22CE2 /* PWRuntime-umbrella.h */,
-				2F94C08D2D953440CBFF347DBCE9E977 /* PWRuntime.debug.xcconfig */,
-				B8F40C8B5A83401B1AA94723AD41A60C /* PWRuntime.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PWRuntime";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -204,7 +204,7 @@
 		D39D1F6F57C438CE4FC1AB4803B2D790 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B2F3085929AD00242C16F6173B9A1C9 /* PWRuntime */,
+				A2766CA6B54B788593F802D9FEC35860 /* PWRuntime */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF5DD963DA52943FB398F4DDF2AC27E /* Person.h in Headers */,
+				EBBD790AC602919695952B35F4EE7FC8 /* Person.h in Headers */,
 				81E7D7203BC887E240068F9D1CBAF8A3 /* PWRuntime-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF85E693616A23A98B8E3FA96D604CAB /* Person.m in Sources */,
+				8EFB1D2ECB812E7311BAC6FA23765526 /* Person.m in Sources */,
 				C93D809EB853B3E76FEDB9AAB4534602 /* PWRuntime-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,7 +497,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -669,7 +670,7 @@
 		};
 		D48777344DC9E2E7F0EADE4096758B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F94C08D2D953440CBFF347DBCE9E977 /* PWRuntime.debug.xcconfig */;
+			baseConfigurationReference = D8F7972FCEB2A71BA37A9652B98440C6 /* PWRuntime.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -700,7 +701,7 @@
 		};
 		D927B1B090C2AE6FE32121EA5E2EE935 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8F40C8B5A83401B1AA94723AD41A60C /* PWRuntime.release.xcconfig */;
+			baseConfigurationReference = 3829B3F5C656B96815A38CE739C19473 /* PWRuntime.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

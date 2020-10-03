@@ -1,9 +1,9 @@
 {
   "name": "PWRuntime",
   "version": "0.1.0",
-  "summary": "A short description of PWRuntime.",
+  "summary": "frist one",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/727626565@qq.com/PWRuntime",
+  "homepage": "https://github.com/mojie123/PWRuntime",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "727626565@qq.com": "lpw1226@163.com"
   },
   "source": {
-    "git": "https://github.com/727626565@qq.com/PWRuntime.git",
+    "git": "https://github.com/mojie123/PWRuntimeSpecs.git",
     "tag": "0.1.0"
   },
   "platforms": {
